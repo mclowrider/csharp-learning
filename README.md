@@ -91,6 +91,7 @@ Greetings. My name is Oleh (mclowrider on GitHub), and this is a repository whic
     - [ ] C. Debugging Your Code
 
 ### 📙 Current course program: CS50x 2026
+- [ ] **Course**
     - [ ] Week 0 - Scratch
     - [ ] Week 1 - C
     - [ ] Week 2 - Arrays
