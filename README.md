@@ -31,8 +31,8 @@ Greetings. My name is Oleh (mclowrider on GitHub), and this is a repository whic
 - [ ] **Part 1: The Basics**
     - [x] Chapter 1: The C# Programming Language
     - [x] Chapter 2: Getting an IDE
-    - [ ] Chapter 3: Hello World: Your First Program
-    - [ ] Chapter 4: Comments
+    - [x] Chapter 3: Hello World: Your First Program
+    - [x] Chapter 4: Comments
     - [ ] Chapter 5: Variables
     - [ ] Chapter 6: The C# Type System
     - [ ] Chapter 7: Math
@@ -90,7 +90,7 @@ Greetings. My name is Oleh (mclowrider on GitHub), and this is a repository whic
     - [ ] B. Compiler Errors
     - [ ] C. Debugging Your Code
 
-### 📙 Current course program: CS50x 2026
+### 📗 Current course program: CS50x 2026
 - [ ] **Course**
     - [ ] Week 0 - Scratch
     - [ ] Week 1 - C
