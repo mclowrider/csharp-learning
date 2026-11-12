@@ -33,8 +33,8 @@ Greetings. My name is Oleh (mclowrider on GitHub), and this is a repository whic
     - [x] Chapter 2: Getting an IDE
     - [x] Chapter 3: Hello World: Your First Program
     - [x] Chapter 4: Comments
-    - [ ] Chapter 5: Variables
-    - [ ] Chapter 6: The C# Type System
+    - [x] Chapter 5: Variables
+    - [x] Chapter 6: The C# Type System
     - [ ] Chapter 7: Math
     - [ ] Chapter 8: Console 2.0
     - [ ] Chapter 9: Decision Making
@@ -92,7 +92,7 @@ Greetings. My name is Oleh (mclowrider on GitHub), and this is a repository whic
 
 ### 📗 Current course program: CS50x 2026
 - [ ] **Course**
-    - [ ] Week 0 - Scratch
+    - [x] Week 0 - Scratch
     - [ ] Week 1 - C
     - [ ] Week 2 - Arrays
     - [ ] Week 3 - Algorithms
