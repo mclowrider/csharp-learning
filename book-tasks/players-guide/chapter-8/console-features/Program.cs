@@ -14,7 +14,7 @@ while(true){
     if (double.TryParse(userPrompt, out double inputNumber))
     {
         double outputNumber = Math.Sqrt(inputNumber);
-        Console.WriteLine("The square root of " + inputNumber + " is " + outputNumber);
+        Console.WriteLine($"The square root of {inputNumber} is \n{outputNumber, 2:#.###} (rounded) \n{outputNumber, 2} (full)");
     }
     else if (userPrompt == exitPrompt)
     {
