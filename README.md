@@ -36,7 +36,7 @@ Greetings. My name is Oleh (mclowrider on GitHub), and this is a repository whic
     - [x] Chapter 5: Variables
     - [x] Chapter 6: The C# Type System
     - [x] Chapter 7: Math
-    - [ ] Chapter 8: Console 2.0
+    - [x] Chapter 8: Console 2.0
     - [ ] Chapter 9: Decision Making
     - [ ] Chapter 10: Switches
     - [ ] Chapter 11: Looping
