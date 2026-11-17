@@ -3,14 +3,17 @@
 // using the provided image, display a message about the enemy's position according to the coordinates (x and y)
 
 Console.BackgroundColor = ConsoleColor.Black;
+Console.ForegroundColor = ConsoleColor.DarkYellow;
 
 Console.WriteLine("Please input enemy coordinates when prompted using integers. Press any key to continue. Type \"exit\" in order to exit program. ");
 Console.ReadKey(true);
 
 while (true){
 
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
     Console.Write("Please enter the x coordinate: ");
     string x = Console.ReadLine();
+    if (x == "exit"){break;}
     Console.Write("Please enter the y coordinate: ");
     string y = Console.ReadLine();
 
@@ -20,41 +23,50 @@ while (true){
 
     if (inputsParsed)
     {
-        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        Console.Beep(400, 600);
         if (parsedX < 0 && parsedY < 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is to the southwest!");
         }
         else if (parsedX < 0 && parsedY == 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is to the west!");
         }
         else if (parsedX < 0 && parsedY > 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is to the northwest!");
         }
         else if (parsedX == 0 && parsedY < 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is to the south!");
         }
         else if (parsedX == 0 && parsedY == 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is UPON US!!");
         }
         else if (parsedX == 0 && parsedY > 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is to the north!");
         }
         else if (parsedX > 0 && parsedY < 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is to the southeast!");
         }
         else if (parsedX > 0 && parsedY == 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is to the east!");
         }
         else if (parsedX > 0 && parsedY > 0)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("The enemy is to the northeast!");
         }
         else {Console.WriteLine("Error. Try again.");}
@@ -63,4 +75,5 @@ while (true){
     else {Console.WriteLine("Please enter only integers. ");}
 }
 
+Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Thanks for playing. ");
