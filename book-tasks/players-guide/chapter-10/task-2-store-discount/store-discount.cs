@@ -82,8 +82,9 @@ bool storeLoop(){
     else{return true;}
 }
 
-while(storeLoop() == true){
+do {
     storeLoop();
 }
+while(storeLoop() == true);
 
 Console.WriteLine($"You exit the store. You have [{playerWallet}] Gold left.");
