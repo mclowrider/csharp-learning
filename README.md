@@ -40,7 +40,7 @@ Greetings. My name is Oleh (mclowrider on GitHub), and this is a repository whic
     - [x] Chapter 9: Decision Making
     - [x] Chapter 10: Switches
     - [x] Chapter 11: Looping
-    - [ ] Chapter 12: Arrays
+    - [x] Chapter 12: Arrays
     - [ ] Chapter 13: Methods
     - [ ] Chapter 14: Memory Management
 - [ ] **Part 2: Object-Oriented Programming**
